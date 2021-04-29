@@ -1,0 +1,13 @@
+
+//STAP 1
+CREATE credentials_pdo
+
+// STAP 2
+use credentials_pdo
+
+// STAP 3
+create table credentials(
+   email VARCHAR(255) NOT NULL,
+   password VARCHAR(60) NOT NULL,
+   PRIMARY KEY ( email )
+);
